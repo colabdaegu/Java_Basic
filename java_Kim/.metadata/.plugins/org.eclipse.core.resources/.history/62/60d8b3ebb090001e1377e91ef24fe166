@@ -1,0 +1,19 @@
+package rabbit;
+
+public class Rabbit {
+	String shape = "dfd";
+	int xPos, yPos;
+	
+	Rabbit() {
+		shape = "토끼";
+	}
+	
+	Rabbit(String shape){
+		this.shape=shape;
+	}
+	
+	void setPosition(int x, int y) {
+		xPos = x;
+		yPos = y;
+	}
+}

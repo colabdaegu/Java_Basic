@@ -1,0 +1,14 @@
+package efef;
+
+public class Code088_01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(RRabbit.count);
+		
+		RRabbit rabbit1 = new RRabbit();
+		RRabbit rabbit2 = new RRabbit();
+		System.out.println(RRabbit.count);
+	}
+
+}

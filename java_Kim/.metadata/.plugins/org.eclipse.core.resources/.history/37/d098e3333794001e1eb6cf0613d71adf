@@ -1,0 +1,26 @@
+package chap12;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
+public class chap12_18 {
+
+	public static void main(String[] args) {
+		JFrame frame = new JFrame();
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setTitle("입력 상자");
+		frame.setLayout(null);
+		frame.setLayout(new FlowLayout());
+		
+		String name = JOptionPane.showInputDialog(null, "이름 입력", "난생이");
+		int age = Integer.parseInt(JOptionPane.showInputDialog(null, "나이 입력", 21));
+		
+		JOptionPane.showMessageDialog(null, name+", "+age, "결과", JOptionPane.PLAIN_MESSAGE);
+		
+		frame.setSize(600, 600);
+		frame.setVisible(true);
+	}
+
+}
