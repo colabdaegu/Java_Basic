@@ -1,5 +1,7 @@
 package chap12;
 
+import java.awt.FlowLayout;
+
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
@@ -17,11 +19,11 @@ public class chap12_19 {
 		int result = JOptionPane.showConfirmDialog(frame, "선택하세요", "제목", JOptionPane.YES_NO_CANCEL_OPTION);
 		
 		switch (result) {
-		case JOptionPane.YES_OPTION: JOptionPane.showMessageDialog(null,  "Yes 누름");
+		case JOptionPane.YES_OPTION: JOptionPane.showMessageDialog(frame,  "Yes 누름");
 		break;
-		case JOptionPane.NO_OPTION: JOptionPane.showMessageDialog(null,  "No 누름");
+		case JOptionPane.NO_OPTION: JOptionPane.showMessageDialog(frame,  "No 누름");
 		break;
-		default: JOptionPane.showMessageDialog(null,  "Cancel 누름");
+		default: JOptionPane.showMessageDialog(frame,  "Cancel 누름");
 		}
 		
 		

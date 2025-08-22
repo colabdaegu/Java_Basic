@@ -7,9 +7,8 @@ public class chap11_07 {
 		int[] ary = {10, 20, 30};
 		
 		try {
-			ary[3] = 1234;
 			ary[3] = 1234 / 0;
-			
+			ary[3] = 1234;
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("배열 첨자 오류입니다.");
 		} catch (ArithmeticException e) {

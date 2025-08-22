@@ -5,7 +5,7 @@ public class Rabbit2 {
 	private int xPos, yPos;
 	
 	public void setShape(String shape) {
-		shape = shape;
+		this.shape = shape;
 	}
 	
 	public String getShape() {

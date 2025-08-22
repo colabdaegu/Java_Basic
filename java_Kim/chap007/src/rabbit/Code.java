@@ -13,7 +13,7 @@ public class Code {
 		//rabbit.setPosition();
 		
 		
-		Rabbit rabbit2 = new Rabbit();
+		Rabbit rabbit2 = new Rabbit("black");
 		System.out.println(rabbit2.shape);
 	}
 

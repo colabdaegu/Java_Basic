@@ -22,8 +22,6 @@ public class chap12_11 {
 			frame.add(btn[i]);
 		}
 		
-
-		
 		frame.setSize(250, 250);
 		frame.setVisible(true);
 	}
