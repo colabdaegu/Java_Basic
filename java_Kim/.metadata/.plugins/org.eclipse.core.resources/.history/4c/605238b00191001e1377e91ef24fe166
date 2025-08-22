@@ -1,0 +1,28 @@
+package efef;
+import java.util.Scanner;
+
+public class efefe311 {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int ddd[];
+		
+		for (int i : ddd) {
+			ddd[i] = s.nextInt();
+		}
+//		int sam = new [];
+//		samm = new int[];
+//		sma = new int[10];
+//		int smmm = new [10];
+		
+//		int[] sam = new int[4];
+//		
+//		
+//		newAry = new int[10];
+//		
+//		int num[] = new int[];
+//		
+//		System.out.print(sss);
+	}
+
+}

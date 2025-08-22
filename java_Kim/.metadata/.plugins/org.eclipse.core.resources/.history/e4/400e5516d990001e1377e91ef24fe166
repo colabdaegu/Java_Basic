@@ -1,0 +1,17 @@
+package efef;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Scanner;
+
+public class efefe {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		Integer ddd[] = {100,300,200};
+
+		Arrays.sort(ddd, Collections.reverseOrder());
+		//Arrays.sort(ddd);
+		
+	}
+
+}
